@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+     <link rel="stylesheet" href="/src/style.css">
+    <title>register manager</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class ="heading">Cash Register Manager</h1>
+        <p class="description">Enter the bill amount by the 
+        customer and know mninmum number of notes to return
+        </p>
+        <label class="input-label" for="bill-amount">Bill Amount:</label>
+        <input class="input1" id="bill-amount" type="text"/>
+        <!-- <button>Next</button> -->
+        <label class="input-label" for="cash-given">Cash Given</label>
+        <input class="input2" id="cash-given" type="text" style="display: none;"/>
+        <button id="check-button">Check</button>
+        <p id="error-message"></p>
+        <table class="change-table">
+            <caption class="caption">Return Change</caption>
+            <thead>
+                <tr>
+                    <th>No. of Notes</th>
+    
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+            </tr>
+        </thead>
+           <thead>
+            <tr class="row2">
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>200</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+
+           </thead>
+            
+        </table>
+    </div>
+
+
+    <footer>
+        <div>
+            <h1>Social Media</h1>
+        </div>
+        <a href="https://discord.com/chunu-tamang" target="_blank">
+         <img src="/src/images/discord.png" alt="discord" width="40px" >
+        </a> 
+        <a href="https://github.com/Chu122" target="_blank">
+         <img  src="/src/images/github.png"  alt="github" width="40px">
+        </a>
+        <a href="https://www.linkedin.com/in/chunu-tamang/" target="_blank">
+         <img  src="/src/images/linkedin.png" alt="linkedin"  width="40px">
+        </a>
+        <a href="https://twitter.com/chunu_tamu22" >
+         <img  src="/src/images/twitter.png"  alt="twitter"  width="40px">
+        </a>
+    </footer>
+   
+
+
+    <script src="/src/app.js"></script>
+</body>
+</html>
